@@ -1,0 +1,20 @@
+{
+  "name": "@superinstance/substrate-traverse",
+  "version": "0.1.0",
+  "description": "TRAVERSE opcode (R10): walk the witness log along typed edges.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "traverse",
+    "witness-log",
+    "substrate",
+    "jev-quilt",
+    "doctrine"
+  ],
+  "author": "SuperInstance",
+  "license": "MIT",
+  "dependencies": {
+    "@superinstance/observation-primitive": "file:../observation-primitive",
+    "@superinstance/substrate-witness-log": "file:../substrate-witness-log"
+  }
+}
